@@ -1,3 +1,27 @@
 .quienesSomos {
     margin: 30px;
 }
+
+.bannerAcercade {
+    background-image: url("../img/Banner\ tienda.png");
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.tituloAcercade {
+    text-align: center;
+    padding-top: 160px;
+}
+
+.h1Acercade {
+    color: black;
+    font-weight: bold;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    color: $color-principal;
+    font-weight: normal;
+}

@@ -210,18 +210,65 @@ h5 {
   border: 1px solid #cfcfcf;
 }
 
-.tituloExplorar {
+.tituloH1 {
   margin-top: 20px;
+}
+
+.bannerExplorar {
+  background-image: url("../img/Banner tienda.png");
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.tituloExplorar {
+  text-align: center;
+  padding-top: 160px;
+}
+
+.h1Explorar {
+  color: black;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #b88e2f;
+  font-weight: normal;
 }
 
 .quienesSomos {
   margin: 30px;
 }
 
+.bannerAcercade {
+  background-image: url("../img/Banner tienda.png");
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.tituloAcercade {
+  text-align: center;
+  padding-top: 160px;
+}
+
+.h1Acercade {
+  color: black;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #b88e2f;
+  font-weight: normal;
+}
+
 .bannerTienda {
   background-image: url("../img/Banner tienda.png");
   background-size: cover;
   height: 400px;
+  margin-bottom: 20px;
 }
 
 .tituloTienda {
@@ -239,7 +286,7 @@ h5 {
 }
 
 .h2Mueble {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #b88e2f;
   font-weight: normal;
 }
@@ -292,8 +339,31 @@ label {
   margin-top: 10px;
 }
 
-.tituloContacto {
+.tituloH1 {
   margin-top: 20px;
+}
+
+.bannerContacto {
+  background-image: url("../img/Banner tienda.png");
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.tituloContacto {
+  text-align: center;
+  padding-top: 160px;
+}
+
+.h1Contacto {
+  color: black;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #b88e2f;
+  font-weight: normal;
 }
 
 .cards {
