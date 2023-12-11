@@ -1,0 +1,31 @@
+.cards {
+  width: 90%;
+}
+
+.imagen-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.fotosExp {
+  width: 100%;
+  height: auto;
+}
+
+.imagen-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.35s;
+}
+
+.imagen-container:hover::after {
+  opacity: 0.5;
+  cursor: pointer;
+}

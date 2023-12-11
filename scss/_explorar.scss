@@ -1,0 +1,41 @@
+.mainExplorar {
+    margin: 0 10px;
+}
+
+
+.opcionesExplorar {
+    margin-top: 50px;
+}
+
+.botonExplorarPrimario {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    margin: 10px;
+    background-color: $color-principal;
+
+    &:hover {
+        background-color: $color-secundario;
+    }
+}
+
+.botonSecundario {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    margin: 10px;
+}
+
+.cardExplorar {
+    margin: 50px;
+    border: 1px solid #cfcfcf;
+}
+
+.tituloExplorar {
+    margin-top: 20px;
+}
