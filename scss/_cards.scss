@@ -1,107 +1,63 @@
 /*CARDS*/
 
 h2 {
-    font-weight: bold;
-    text-align: center;
-    font-size: 24px;
-  }
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+}
 
-  .contenedorProductos {
-    margin: 0 20px;
-  }
-  
-  .productoImagen {
-    margin-top: 20px;
-    object-fit: contain;
-    cursor: pointer;
-  }
-  
-  h5 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  /* CSS DE TIENDA.HTML */
-  
-  .bannerTienda {
-    background-image: url("../img/Banner\ tienda.png");
-    background-size: cover;
-    height: 400px;
-  }
-  
-  .tituloTienda {
-    text-align: center;
-    padding-top: 160px;
-  }
-  
-  .h1Muebles {
-    color: black;
-    font-weight: bold;
-  }
-  
-  .productoMueble {
-    margin: 0 50px;
-  }
-  
-  .h2Mueble {
-    margin-bottom: 30px;
-    color: $color-principal;
-    font-weight: normal;
-  }
-  
-  .botonComprar {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    border: none;
-    color: #fff;
-    background-color: $color-principal;
-    margin-bottom: 30px;
-  
-    &:hover {
-      background-color: $color-secundario;
-    }
-  }
+.contenedorProductos {
+  margin: 0 20px;
+}
 
-  .imagen-container {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-  }
+.productoImagen {
+  margin-top: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
 
-  .img-container {
-    position: relative;
-    overflow: hidden;
-    border-radius: none;
-    background-color: #F4F5F7;
-    margin-bottom: 60px;
-  }
-  
-  .fotosExp {
-    width: 100%;
-    height: auto;
-  }
-  
-  .imagen-container::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0;
-    transition: opacity 0.35s;
-  }
-  
-  .imagen-container:hover::after {
-    opacity: 0.5;
-    cursor: pointer;
-  }
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.imagen-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: none;
+  background-color: #F4F5F7;
+  height: 95%;
+  margin-bottom: 60px;
+}
+
+.fotosExp {
+  width: 100%;
+  height: auto;
+}
+
+.imagen-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.35s;
+}
+
+.imagen-container:hover::after {
+  opacity: 0.5;
+  cursor: pointer;
+}
 
 .Nuestrosproductos {
   margin-bottom: 40px;
@@ -127,6 +83,6 @@ h2 {
 }
 
 
-.cards{
+.cards {
   margin: 0 30px;
 }

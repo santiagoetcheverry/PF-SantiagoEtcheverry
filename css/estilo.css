@@ -5,7 +5,7 @@ body {
 
 /*HEADER */
 .logo {
-  width: 150px;
+  width: 200px;
   cursor: pointer;
   margin-right: 30px;
 }
@@ -126,49 +126,6 @@ h5 {
   margin-top: 20px;
 }
 
-/* CSS DE TIENDA.HTML */
-.bannerTienda {
-  background-image: url("../img/Banner tienda.png");
-  background-size: cover;
-  height: 400px;
-}
-
-.tituloTienda {
-  text-align: center;
-  padding-top: 160px;
-}
-
-.h1Muebles {
-  color: black;
-  font-weight: bold;
-}
-
-.productoMueble {
-  margin: 0 50px;
-}
-
-.h2Mueble {
-  margin-bottom: 30px;
-  color: #b88e2f;
-  font-weight: normal;
-}
-
-.botonComprar {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
-  border: none;
-  color: #fff;
-  background-color: #b88e2f;
-  margin-bottom: 30px;
-}
-.botonComprar:hover {
-  background-color: #84611a;
-}
-
 .imagen-container {
   position: relative;
   overflow: hidden;
@@ -180,6 +137,7 @@ h5 {
   overflow: hidden;
   border-radius: none;
   background-color: #F4F5F7;
+  height: 95%;
   margin-bottom: 60px;
 }
 
@@ -321,6 +279,7 @@ h2 {
   font-weight: normal;
 }
 
+/*CSS DE TIENDA.HTML */
 .bannerTienda {
   background-image: url("../img/Banner tienda.png");
   background-size: cover;
@@ -364,6 +323,7 @@ h2 {
   background-color: #84611a;
 }
 
+/*CSS DE CONTACTO.HTML */
 .formulario {
   padding: 0 100px;
 }
