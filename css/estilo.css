@@ -3,6 +3,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*HEADER */
 .logo {
   width: 200px;
@@ -252,6 +257,12 @@ h2 {
   font-weight: normal;
 }
 
+.badge {
+  height: 53px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
 .quienesSomos {
   margin: 30px;
 }
@@ -321,6 +332,10 @@ h2 {
 }
 .botonComprar:hover {
   background-color: #84611a;
+}
+
+.menuFooter {
+  color: black;
 }
 
 /*CSS DE CONTACTO.HTML */
